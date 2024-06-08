@@ -3,244 +3,181 @@
 #
 
 sidebar:
-    position: left # position of the sidebar : left or right
+    position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Danyl Novhorodov
-    tagline: Freelance Software Engineer | Technical Lead | Software Architect
+    name: Julia Novgorodova
+    tagline: Fitness Trainer | Groepsles Trainer | Personal Trainer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: danyl.novhorodov@gmail.com
-    phone: 064 075 4777
+    email: fox-lady@mail.ru
+    phone: 064 080 9083
     timezone: Europe/Amsterdam Timezone
     citizenship: Netherlands
-    website: danyl.hashnode.dev #do not add http://
-    linkedin: danyl-novhorodov
+    website: #do not add http://
+    linkedin: #
     xing: #
-    github: dnovhorodov
-    telegram: # add your nickname without '@' sign
+    github: #
+    telegram: Happy_Fox_in_the_box # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@dnovhorodov'
+    twitter: #
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://danyl-novhorodov.info/assets/dnovhorodov-online-cv-print.pdf
+    pdf: #https://danyl-novhorodov.info/assets/dnovhorodov-online-cv-print.pdf
 
     languages:
-      title: Languages
+      title: Talen
       info:
-        - idiom: Ukrainian
+        - idiom: Nederlands
+          level: Geavanceerd
+
+        - idiom: Engels
+          level: Geavanceerd
+
+        - idiom: Oerkaiens
           level: Native
         
-        - idiom: Russian
+        - idiom: Russisch
           level: Native
-
-        - idiom: English
-          level: Fluent
-
-        - idiom: Dutch
-          level: Basic
 
     interests:
       title: Interests
       info:
-        - item: MMA/Kickboxing/Boxing
+        - item: Dansen
           link:
-        - item: Gym
-          link:
-        - item: Music & Cinema
-          link:
-        - item: Reading
-          link:
-        - item: Travelling
+        - item: Reizen
           link:
 
 career-profile:
-    title: About me
+    title: Over mij
     summary: |
-      I am a freelance Software Engineer with over twenty years of experience, specializing in developing scalable,
-      cloud-based solutions across diverse industries including banking, automotive, hospitality, telecom, and agriculture.
-      My expertise spans the entire software development lifecycle with a preference for Agile methodologies like
-      Lean and XP. Throughout my career, I have successfully addressed technological challenges in both startups and
-      large organizations, focusing on enhancing system functionalities and overhauling outdated architectures.
-      I have steered teams towards achieving their goals and have been committed to supporting developers in their
-      professional growth. My approach combines practical problem-solving with a commitment to sustainable software
-      architecture, ensuring continuous improvement and the delivery of high-impact solutions.
+      Energieke professional met uitgebreide ervaring die klanten helpt hun fitnessdoelen te bereiken. Gepassioneerd
+      door training en welzijn, met de nadruk op het helpen van elke klant om zijn optimale conditieniveau te bereiken
+      terwijl hij geniet van het proces. Bekwaam in het ontwikkelen van geïndividualiseerde trainingsregimes,
+      afgestemd op de unieke behoeften en doelen van elke klant.
 education:
-    title: Education
+    title: Opleiding
     info:
-      - degree: Master Degree in Computer Engineering
-        university: Krivyi Rih Technical University
-        time: 1997 - 2002
+      - degree: Economics, Bechelor
+        university: INTERNATIONAL UNIVERSITY OF FINANCE, UKRAINE, KRIVOY ROG
+        time: 2001 - 2007
         details: |
           
 
 experiences:
-    title: Experiences
+    title: Ervaring
     info:
-      - role: Technical Lead
-        time: 2023 - Present
-        company: RTL, Hilversum - Netherlands
+      - role: Fitness Trainer
+        time: 2023 - Tot Heden
+        company: MONNE ZORG & BEVEGING, BREDA
         details: |
-          As a Technical Lead at [RTL](https://company.rtl.com/en/business-units/overview/rtl-nederland/), I faced the challenge of enhancing the architecture and codebase for
-          content distribution and transformation. My team is responsible for managing content discovery,
-          delivery, and playout across platforms like [RTL News](https://www.rtlnieuws.nl/), [RTL Boulevard](https://www.rtl.nl/boulevard?redirect=rtlboulevard), and [Videoland](https://www.videoland.com/nl/).
-          We cater to millions of users daily, ensuring that video content is efficiently processed and
-          distributed to various platforms for both live streaming and video on demand. We also ensure that our users get the best experience by taking full ownership of the flow and resolving any issues via effective incident management.
-            - **HTTP Live Streaming parser**: F# implementation of HLS parser ([RFC 8216](https://www.rfc-editor.org/rfc/rfc8216)) for Live to VoD (Video on Demand) flow.
-            - **Media RSS Feed**: Integration solution with cable companies like Ziggo and KPN to have discoverable content on user's TV set-up-boxes when they search for movie or series.
-            - **Architecture Roadmap**: Together with other architects developed a vision and plan on moving towards event-driven architecture for integrations.
-            - **Strategic DDD**: Drove initiative for implementing strategic DDD with techniques like Event Storming, User Journey Map, and Context Map.
-      - role: Technical Lead
-        time: 2022 - 2023
-        company: Farmtrace, Boxmeer - Netherlands
+          - Trainingsschema maken
+          - Aerobic instructeur
+          - Step-aerobic instructeur
+          - Pilates instructeur
+          - Small group training
+          - Grote group training
+          - Outdoor training
+          - Senioren Fitness
+          - Trainen met tieners met het syndroom van Down
+          - Het begeleiden van klanten
+      - role: Verkoopmedewerker
+        time: 2019 - 2022
+        company: ZARA KLEIDINGWINKEL, NEDERLAND
         details: |
-          At [Farmtrace](https://farmtrace.com/), my responsibilities include facilitating development teams, mentoring and coaching,
-          and implementing best software development practices to maintain high-quality standards. 
-          Approximately 60-70% of my time is dedicated to coding, while the remainder is allocated for code
-          reviews, documentation, educational sessions for developers, and business meetings.
-          I actively participate in the design and development of new components and features, guiding the team
-          to ensure they are equipped to handle ongoing maintenance and development independently.
-          I am always ready to assist other teams that require support or advice, exemplifying my approach
-          to teamwork and leadership.
-            - **CI/CD**: Created Azure DevOps pipelines, Terraform modules and related setup to release software on Azure platform in a fast manner.
-            - **Complex subdomain**: Re-designed and re-implemented one of the complex modules that process data from farm system (FMS) into the Azure.
-            - **Data Crawler**: Developed reliable solution for data scraping with multi-tenant support and proxy rotation.
-      - role: Lead Developer
-        time: 2020 - 2022
-        company: CM, Breda - Netherlands
+          - Mensen helpen bij het kopen van kleding
+          - Helpen bij het passen van kleding
+          - Het vinden van de juiste maat voor de koper
+          - Online bestellingen inpakken
+          - Magazijn werk
+          - Werken aan de kassa
+      - role: Eigenaar en Distributeur
+        time: 2012 - Tot Heden
+        company: ONLINE WINKEL "HRUMKINA LAVKA", UKRAINE, VINNITSA
         details: |
-          As the lead developer at [CM](https://www.cm.com/), my role involves reworking one of the core but legacy applications on our
-          platform. This multi-tenant application handles the display of sent and received messages across
-          all communication channels and providers, featuring advanced filtering and searching capabilities.
-          The primary challenge lies in managing the vast amount of data, which includes tens of billions of
-          records spanning both transactional (OLTP) and analytical (OLAP) sources that need to be efficiently
-          queried. We also face challenges in supporting a flexible security model and core features that allow
-          the creation of specialized views with custom column setups. These views, which users can create
-          independently, can be either private or shared. In this project, I employed a polyglot approach,
-          utilizing Domain-Driven Design (DDD) for modeling the application's core logic and Dapper for
-          efficient generation of dynamic SQL queries for content retrieval.
-          
-          Additionally, I enhanced our CI/CD pipeline to create Docker images with each release, which are
-          then published to a private registry and deployed to a Kubernetes cluster.
-            - **Product Development**: Re-designed and modernized one of the core applications on the proprietary platform. Improved security and performance. Continuously improved solutions based on direct customer feedback.
-            - **Data Generator Tool**: Applied F# and built on top of FsCheck CLI tool for generating massive amount of production-like data for testing our product.
-            - **Functional Microservice**: Applied F# to build a background service for sedning e-mails that communicates with main application via ZeroMQ.
-      - role: Senior Software Engineer
-        time: 2017 - 2020
-        company: Amadeus IT Group, Breda - Netherlands
+          - Producten voor veganisten en raw foodists, cosmetische producten zonder chemicalien
+          - Voedsel: rauwe crackers, chocolade, snoep. Vervaardiging van cosmetische producten: shampoos, zee
+      - role: Telefoniste
+        time: 2007 - 2009
+        company: YELLOW PAGES OF UKRAINE, UKRAINE,
         details: |
-          As a Senior Full-Stack Developer at [Amadeus](https://amadeus.com/en), my primary responsibility is to analyze business requirements
-          and collaboratively devise effective solutions with my team. We are a self-organized, flat team
-          capable of delivering comprehensive full-stack solutions—from front-end and back-end development,
-          through CI/CD pipelines, to release in Azure and acceptance testing. Our main focus areas within
-          the system are payments and financial flows. On the front-end, we use Angular 7 and NgRx reactive
-          extensions, paired with C# for the backend, and leverage Azure DevOps pipelines for our CI/CD processes.
-          We adopt a design-first and API-first approach and adhere to clean architecture principles wherever feasible.
-          
-          Additionally, as part of the production support team, our daily tasks include release management, performance
-          analysis, troubleshooting, monitoring, and incident management, with a close integration of Azure DevOps pipelines
-          and Portal to ensure operational excellence.
-            - **Cloud SaaS for Hotels**: Kept improving application by adding new features, fixing bugs and having ownership on our sub-domain.
-            - **Stand-by-shifts**: Troubleshooting and improving the processes of incident management.
-            - **Full Stack**: Complete cycle from architecture vision to the front-end design.
-      - role: Software Architect and Lead Developer
-        time: 2009 - 2017
-        company: CDM A/S, Vinnitsya - Ukraine
+          - Werken met de database: invoeren, bijwerken, corrigeren van informatie over bedrijven, bellen naar klanten
+          - Het doel van mijn werk was om de database van klanten van ons bedrijf te verwerken die advertenties in onze catalogus
+          plaatsten
+          - Bevestiging van de relevantie van klantgegevens door gegevens te bellen, in te voeren en bij te werken
+      - role: Accountant
+        time: 2004 - 2006
+        company: GEZINSKLIENIK PMS, UKRAINE, KRIVOY ROG
         details: |
-          As a Lead developer and Architect at [CDM](https://cdm.dk/), I was tasked with the creation of various
-          innovative products, helping teams to create effective architectures, reviewing the code and coaching.
-            - **[myhouse](https://myhouse.dk/)**: A new portal designed for all individuals in Denmark connected to the housing sector. This platform is tailored to reflect the unique relationships of one's home and integrates personal connections.
-            - **Tender Management System**: An ASP.NET-based system dedicated to the efficient management of tenders.
-            - **CDM License Suite**: A comprehensive solution that facilitates license management within enterprise CRM systems and safeguards executables from hacking.
-            - **Import/Export Framework**: Developed specifically for MS CRM 4.0, this framework supports the import and export of translations, including display strings, localized labels, and custom translations.
-            - **Replication Service (Exchange Interface Service)**: A two-way real-time replication system between MS Exchange 2007 Server and the enterprise CRM system, focusing on the replication of appointments, meetings, tasks, contacts, and more.
-      - role: .NET Software Engineer
-        time: 2008 - 2009
-        company: EPAM, Kyiv - Ukraine
+          - Onderhoud van de boekhouding en belastingadministratie; overeenkomsten nakijken; rapporten opstellen
+          - Verwerking van betalingsopdrachten
+          - Loonlijst
+          - Voorbereiding van documenten voor het afsluiten van een lening, uittreksel van gevolmachtigden
+          - Mijn taken waren het bijhouden van de boekhouding, het werken met een klantbank, het doen van betalingen en het
+          indienen van rapporten bij de belastinginspectie.
+      - role: Medische Receptioniste
+        time: 2003 - 2004
+        company: GEZINSKLIENIK PMS, UKRAINE, KRIVOY ROG
         details: |
-          At [EPAM](https://www.epam.com/) I was involved in several .NET/C# projects, including
-            - **CRM System for the Media Industry (CNN, BBC)**: I developed a segment of the system responsible for managing customer advertising and scheduling live broadcasts on specified channels. This involved interaction with Java back-end code, GUI coding using DevExpress components for user controls, and main modules. Responsibilities included refactoring the data access layer using LINQ to SQL, implementing GUI validation logic, back-end coding, and performance optimization.
-            - **System for Meal Ordering**: This system supports multiple suppliers, combines complex dishes, and features expense calculation and prediction, delivery time monitoring, order history tracking, event notifications, and more. It consists of three parts: an ASP.NET application for placing orders, a WCF service that handles business logic, and a WPF application for administrative tasks. My role encompassed creating the back-end architecture, base classes, data access layer, and business layer, along with code refactoring, unit testing, and performance optimization.
-      - role: C++ Software Engineer
-        time: 2007 - 2008
-        company: Yellow Pages Ukraine, Kyiv - Ukraine
-        details: |
-          I contributed to the support and development of the Yellow Pages enterprise system. 
-          My responsibilities included creating stored procedures, views, and triggers to enhance system functionality.
-          I also managed the export and import of data from various sources, incorporating necessary transformations
-          and post-processing. Key tasks involved code refactoring, generating reports, and addressing bugs.
-
-          Additionally, I developed several specialized modules:
-            - **Rival Information Management and Analysis**: Designed to manage and analyze competitor data efficiently.
-            - **Yellow Pages Directory Export Software**: Crafted software for exporting the Yellow Pages directory under complex, agile conditions for CD distribution.
-            - **Notification System**: Developed a system to alert company agents about key updates and information.
-            - **Designers Module**: Created a module that transforms text information from the database, related to customer advertising, into a formatted Microsoft Word template for graphical representation and printing.
-      - role: C++ Software Engineer
-        time: 2006 - 2007
-        company: Valmi Automotive, Kyiv - Ukraine
-        details: |
-          I played a key role in the support and development of the ValSoft enterprise system. My responsibilities
-          included the creation of stored procedures, views, and triggers to enhance system functionality. I also
-          focused on adapting the enterprise system to align with business processes in other countries, including
-          developing a localization module.
-
-          Significant achievements include:
-            - **Leadership**: I led the software development activities at the Moldova branch, guiding the team through various enhancements and maintenance tasks.
-            - **Code Refactoring and Maintenance**: Engaged in code refactoring, creating reports, and bug-fixing to improve system reliability and performance.
-            - **File-Based Communication System**: Developed a novel communication system to facilitate file-based data exchange between the Moldavian and Ukrainian enterprise systems, ensuring seamless interoperability.
-      - role: Lead Engineer
-        time: 2005 - 2006
-        company: Donetsk City Bank, Krivyi Rih - Ukraine
-        details: |
-          I was instrumental in setting up a local bank branch in Krivoy Rog. My responsibilities encompassed establishing
-          communication with the main branch and implementing process automation to enhance operational efficiency.
-          Key tasks included scripting, configuring ATMs, and setting up the local network infrastructure.
-          
-          Additionally, I managed database backups and addressed various other operational concerns to ensure a robust and reliable banking service.
-            - **Engineering Lead of the local branch**: I led the local branch of the parent bank entity and kept IT department operating.
-      - role: Software Engineer
-        time: 2002 - 2005
-        company: PJSC Pivdencombank, Krivyi Rih - Ukraine
-        details: |
-          I developed software to automate the workflow of the deposit department. This software allows users to search
-          for clients using specific criteria within the bank's database, and supports editing, opening documents
-          in MS Word templates, and printing. My responsibilities included developing the graphical user interface (GUI)
-          and creating stored procedures. Additionally, I ensured seamless interaction with the automated banking system's
-          API to integrate various functionalities effectively.
-
+          - Registratie van analyses
+          - Uitgifte van testresultaten
 
 certifications:
-      title: Certifications
+      title: Cursussen
       list:
-        - name: Domain Modeling Made Functional Online Workshop
+        - name: Personal Trainer
+          start: 2024
+          end: 2024
+          organization: AALO
+          credentialid: 
+          credentialurl: 
+          credentialname:
+          details:
+        - name: FITNESSTRAINER B
+          start: 2024
+          end: 2024
+          organization: AALO
+          credentialid: 
+          credentialurl: 
+          credentialname:
+          details:
+        - name: Groepsles Trainer Pilates, Aerobics, Stepaerobics, stretching
+          start: 2023
+          end: 2023
+          organization: Tochka-Fitnesa
+          credentialid: 
+          credentialurl: 
+          credentialname:
+          details:        
+        - name: FITNESSTRAINER A (niveau 3)
           start: 2021
           end: 2021
-          organization: Avanscoperta
-          credentialid: 2021_04_22
-          credentialurl: https://www.avanscoperta.it/en/
-          credentialname: Avanscoperta
-          details: |
-            Functional programming and domain-driven design might not seem to be a good match,
-            but in fact functional programming can be an excellent approach to designing decoupled,
-            reusable systems with a rich domain model.
+          organization: Sport2Move
+          credentialid: 
+          credentialurl: 
+          credentialname:
+          details:
+        - name: Nederlands B1
+          start: 2022
+          end: 2022
+          organization:
+          credentialid: 
+          credentialurl: 
+          credentialname:
+          details:
+        
 
 projects:
     title: Projects
     # intro: >
     #   When I have enough free time I enjoy to do side projects
     assignments:
-      - title: Lorem Ipsum Generator
-        link: "https://github.com/dnovhorodov/loremips"
-        tagline: "An implementation of a simple Lorem ipsum generator that could be used in any .NET project."
       
-      - title: Lightweight Microservices with F# and ZeroMQ
-        link: "https://github.com/dnovhorodov/micro-light"
-        tagline: "A sample solution for an article from F# Advent 2021. Solution consists of two projects: pub and sub which represents publisher and subscriber accordingly. Publisher randomly sends domain events: correct and incorrect, subscriber listens to it and validates."
 
 # oss:
 #     title: OSS Contributions
@@ -287,44 +224,9 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: DDD | CQRS | Event Sourcing
+      - name: Dansen
         level: 85%
 
-      - name: XP | Lean | Agile
-        level: 100%
-
-      - name: Mentoring & Coaching
-        level: 80%
-      
-      - name: Microservices | EDA | Akka.NET
-        level: 85%
-
-      - name: .NET 8 | C# | F#
-        level: 90%
-
-      - name: ASP.NET | Entity Framework | Dapper
-        level: 90%
-
-      - name: MS SQL Server | MongoDB
-        level: 90%
-
-      - name: RabbitMQ | MassTransit | ZeroMQ | Azure Service Bus
-        level: 80%
-
-      - name: Terraform | ARM
-        level: 65%
-
-      - name: Docker
-        level: 80%
-
-      - name: Kubernetes | ArgoCD
-        level: 40%
-
-      - name: Azure | Azure DevOps | Git | GitLab
-        level: 80%
-
-      - name: HTML5 & CSS
-        level: 30%      
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

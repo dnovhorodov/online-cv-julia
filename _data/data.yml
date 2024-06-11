@@ -72,10 +72,11 @@ education:
 experiences:
     title: Ervaring
     info:
-      - role: Fitness Trainer
+      - role: Fitness Trainer, Personal Trainer
         time: 2023 - Tot Heden
         company: MONNE ZORG & BEVEGING, BREDA
         details: |
+          - Personal Training
           - Trainingsschema maken
           - Aerobic instructeur
           - Step-aerobic instructeur
@@ -146,7 +147,7 @@ certifications:
           credentialurl: 
           credentialname:
           details:
-        - name: Groepsles Trainer Pilates, Aerobics, Stepaerobics, stretching
+        - name: Groepsles Trainer Pilates, Aerobics, Stepaerobics, Stretching
           start: 2023
           end: 2023
           organization: Tochka-Fitnesa

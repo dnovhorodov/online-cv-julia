@@ -74,7 +74,17 @@ experiences:
     title: Ervaring
     info:
       - role: Fitness Trainer, Personal Trainer
-        time: 2023 - Tot Heden
+        time: 2024 - Tot Heden
+        company: Tilburg Universiteit
+        details: |
+          - Personal Training
+          - Trainingsschema maken
+          - Pilates instructeur
+          - Small group training
+          - Grote group training          
+          - Het begeleiden van klanten
+      - role: Fitness Trainer, Personal Trainer
+        time: 2022 - 2024
         company: MONNE ZORG & BEVEGING, BREDA
         details: |
           - Personal Training
@@ -99,7 +109,7 @@ experiences:
           - Magazijn werk
           - Werken aan de kassa
       - role: Eigenaar en Distributeur
-        time: 2012 - Tot Heden
+        time: 2012 - 2014
         company: ONLINE WINKEL "HRUMKINA LAVKA", UKRAINE, VINNITSA
         details: |
           - Producten voor veganisten en raw foodists, cosmetische producten zonder chemicalien
@@ -164,7 +174,7 @@ certifications:
           credentialurl: 
           credentialname:
           details:
-        - name: Nederlands B1
+        - name: Nederlands B2
           start: 2022
           end: 2022
           organization:
